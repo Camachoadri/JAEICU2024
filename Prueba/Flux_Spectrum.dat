@@ -1,3 +1,10 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: Frequency ratio, datatype: float64}
+# - {name: Flux spectrum, datatype: float64}
+# meta: {name: Flux Spectrum Table}
+# schema: astropy-2.0
 "Frequency ratio" "Flux spectrum"
 0.01 1e-05
 0.02 5.6568542494923805e-05
