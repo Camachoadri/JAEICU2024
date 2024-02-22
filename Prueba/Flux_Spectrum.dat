@@ -2,8 +2,18 @@
 # ---
 # datatype:
 # - {name: Frequency ratio, datatype: float64}
-# - {name: Flux spectrum, datatype: float64}
-# meta: {name: Flux Spectrum Table}
+# - {name: Flux spectrum, unit: J / m2, datatype: float64}
+# meta:
+#   __serialized_columns__:
+#     Flux spectrum:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: !astropy.units.Unit {unit: J / m2}
+#       value: !astropy.table.SerializedColumn {name: Flux spectrum}
+#     Frequency ratio:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: !astropy.units.Unit {unit: ''}
+#       value: !astropy.table.SerializedColumn {name: Frequency ratio}
+#   name: Flux Spectrum Table
 # schema: astropy-2.0
 "Frequency ratio" "Flux spectrum"
 0.1 0.00316227766016838
