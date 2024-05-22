@@ -1,4 +1,4 @@
- |     date |        mjd |   nu_GHz |    inst | flux_mJy | eflux_mJy |
+|     date |        mjd |   nu_GHz |    inst | flux_mJy | eflux_mJy |
 | 17/10/08 |    58034.0 |      3.0 |     VLA |     0.33 |      -1.0 |
 | 19/05/21 |  58624.255 |     15.5 |     AMI |    0.464 |   0.03872 |
 | 19/05/22 |    58625.0 |   11.511 |     VLA |    0.412 |     0.031 |
